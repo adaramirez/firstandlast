@@ -23,13 +23,13 @@ Valor de retorno de la función (salida):
     Kevin: "Spacey"
 }*/
 var array = ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'];
-function transformFirstAndLast(array) {
+function transformFirst(array) {
   var result = {};
   //
       result[array[0]] = array[array.length-1];//array is variable therfore, no need for ['array']
       return result;
 }
-console.log(transformFirstAndLast(['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']));//Queen : 'Beyonce'
+console.log(transformFirs(['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']));//Queen : 'Beyonce'
 
 // var object1 ={}
 // object1["name"] = "Juno";
